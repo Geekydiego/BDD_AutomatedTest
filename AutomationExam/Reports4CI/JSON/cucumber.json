@@ -1,0 +1,136 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Search for a Puma Shoe brand new and show result",
+        "description": "",
+        "id": "automated-shoe-ordering-test;search-for-a-puma-shoe-brand-new-and-show-result",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 26197861239,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in Ebay home page",
+            "match": {
+              "location": "Steps.user_is_in_Ebay_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 349801300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "he first clicks in the top centered searchbox",
+            "match": {
+              "location": "Steps.he_first_clicks_in_the_top_centered_searchbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46017679,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "he is able to write the word shoes",
+            "match": {
+              "location": "Steps.he_is_able_to_write_the_word_shoes()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 162206202,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "he press the key Enter another page is loaded",
+            "match": {
+              "location": "Steps.he_press_the_key_Enter_another_page_is_loaded()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10118110529,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should not see the homepage",
+            "match": {
+              "location": "Steps.user_should_not_see_the_homepage()"
+            },
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "duration": 8617632700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Select status “New with box”",
+            "match": {
+              "location": "Steps.select_status_New_with_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 107963,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "he should see the page refresh and show results",
+            "match": {
+              "location": "Steps.he_should_see_the_page_refresh_and_show_results()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2964854454,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "he selects the brand \"puma\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "puma",
+                  "offset": 22
+                }
+              ],
+              "location": "Steps.he_selects_the_brand(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122440,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Print the number of results in console",
+            "match": {
+              "location": "Steps.print_the_number_of_results_in_console()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Automated Shoe Ordering Test",
+    "description": "The purpose of this Feature File is to test how to find and item and orden the price",
+    "id": "automated-shoe-ordering-test",
+    "keyword": "Feature",
+    "uri": "EbayShoeOrdering_Test.feature"
+  }
+]

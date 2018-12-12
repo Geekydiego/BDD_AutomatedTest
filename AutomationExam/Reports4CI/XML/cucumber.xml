@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="48.456715">
+<testcase classname="Automated Shoe Ordering Test" name="Search for a Puma Shoe brand new and show result" time="48.456715">
+<system-out><![CDATA[Given user is in Ebay home page.............................................passed
+When he first clicks in the top centered searchbox..........................passed
+And he is able to write the word shoes......................................passed
+Then he press the key Enter another page is loaded..........................passed
+But user should not see the homepage........................................passed
+When Select status “New with box”...........................................passed
+Then he should see the page refresh and show results........................passed
+And he selects the brand "puma".............................................passed
+When Print the number of results in console.................................passed
+]]></system-out>
+</testcase>
+</testsuite>
